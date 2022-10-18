@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>class-12</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+</head>
+  <body>
+    <nav class="navbar navbar-nav navbar-expand-md bg-dark navbar-dark">
+     <div class="container">
+         <a href="" class="navbar-brand"> LOGO </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+
+        <div class="collapse navbar-collapse" id="navBar">
+            <ul class="navbar-nav ms-auto">
+                <li><a href="" class="nav-link"> Home              </a></li>
+                <li><a href="" class="nav-link"> About             </a></li>
+                <li><a href="" class="nav-link"> Services          </a></li>
+                <li><a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#login"> login  </a></li>
+                <li><a href="#registration" class="nav-link" data-bs-toggle="modal"> Registration </a></li>
+
+            </ul>
+        </div>
+     </div>
+    </nav>
+
+
+    <!--    ############ Login Modal ############# -->
+  <div class="modal fade" id="login">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="text-center"><b>Login Form</b></h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <div class="card card-body">
+                    <form action="">
+                        <div class="row mb-3">
+                            <label for="" class="col-md-3"> Email </label>
+                            <div class="col-md-9">
+                                <input type="email" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="" class="col-md-3"> Password  </label>
+                            <div class="col-md-9">
+                                <input type="password" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="" class="col-md-3"> </label>
+                            <div class="col-md-9">
+                                <input type="button" class="btn btn-success px-5 float-end" value="Login"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!--    ############ Registration Modal ############# -->
+
+    <div class="modal fade" id="registration">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="text-center"><b>Registration Form</b></h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                            <div class="card-body">
+                                <form action="" method="">
+                                    <div class="row mb-3">
+                                        <label for="" class="col-md-3"> First Name </label>
+                                        <div class="col-md-9">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="" class="col-md-3"> Last Name </label>
+                                        <div class="col-md-9">
+                                            <input type="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="" class="col-md-3"> Password </label>
+                                        <div class="col-md-9">
+                                            <input type="password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="" class="col-md-3"> Date of Birth </label>
+                                        <div class="col-md-9">
+                                            <input type="date" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="" class="col-md-3"> Distric Name </label>
+                                        <div class="col-md-9">
+                                            <select name="" id="" class="form-control">
+                                                <option value="" disabled>----Select Distric Name---- </option>
+                                                <option value="">Dhaka</option>
+                                                <option value="">Dinajpur</option>
+                                                <option value="">Thakurgaon</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <label for="" class="col-md-3"> Gender </label>
+                                        <div class="col-md-9">
+                                            <label for=""> <input type="radio" name="gender"> Male </label>
+                                            <label for=""> <input type="radio" name="gender"> Female</label>
+                                            <label for=""> <input type="radio" name="gender"> Others</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <label for="" class="col-md-3"> Address </label>
+                                        <div class="col-md-9">
+                                            <textarea name="" class="form-control" id="" cols="45" rows="5"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <label for="" class="col-md-3">  </label>
+                                        <div class="col-md-9">
+                                            <label for="">
+                                                <input type="checkbox" checked/> I agree with all terms & conditions
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <label for="" class="col-md-3">  </label>
+                                        <div class="col-md-9">
+                                            <input type="button" class="btn btn-outline-success px-5" value="Registration">
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    ############ NAV TABS  ############# -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">Navs Tabs</div>
+                        <div class="card-body">
+                            <ul class="nav nav-tabs">
+                                <li><a href="#description" data-bs-toggle="tab" class="nav-link active">Description</a></li>
+                                <li><a href="#sepcification" data-bs-toggle="tab" class="nav-link">Sepcification</a></li>
+                                <li><a href="#review"data-bs-toggle="tab" class="nav-link">Review</a></li>
+                            </ul>
+
+                            <div class="tab-content">
+
+                                <div class="tab-pane fade active" id="description">
+                                    <h2>Description</h2>
+                                </div>
+
+                                <div class="tab-pane fade" id="sepcification">
+                                    <h2>Sepcification</h2>
+                                </div>
+
+                                <div class="tab-pane fade" id="review">
+                                    <h2>Review</h2>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--    ############ NAV PILLSS  ############# -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Nav Pill
+                        </div>
+                        <div class="card-body">
+                            <ul class="nav nav-pills">
+                                <li><a href="#home" data-bs-toggle="pill" class="nav-link active">Home </a></li>
+                                <li><a href="#about"  data-bs-toggle="pill" class="nav-link">About </a></li>
+                                <li><a href="#contact"  data-bs-toggle="pill" class="nav-link">Contact</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="home">
+                                    <h2>Home Content</h2>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ap
+                                    eriam dolor doloremque, est natus nesciunt nobis nostrum officiis porro praesentium
+                                    provident quae quia quidem rem repudiandae voluptatibus. Debitis molestias natus nostrum.
+                                </div>
+                                <div class="tab-pane fade" id="about">
+                                    <h2>About Content</h2>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at atque cum cumq
+                                    ue ducimus esse eveniet fugit itaque iure minima molestia
+                                    e non pariatur quibusdam tempora ut, vel voluptas voluptatem voluptatibus.
+                                </div>
+                                <div class="tab-pane fade " id="contact">
+                                    <h2>Contact Contact </h2>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+                                    deserunt error et eveniet, ex explicabo necessitatibus, nostrum quibusdam
+                                    similique suscipit
+                                    , tenetur ullam ut. Aliquam ea expedita ipsam modi quas, quia?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+database name: laravel_crud
+
+table name : blogs

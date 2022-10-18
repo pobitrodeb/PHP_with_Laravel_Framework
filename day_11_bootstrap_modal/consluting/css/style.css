@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.banner-section{
+
+    height: 580px;
+    background-image: url("../img/31214.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-content{
+   margin-top: 90px;
+    height: 350px;
+    width: 450px;
+    background-color: #ffffff;
+    padding: 16px 14px;
+}
+.banner-content h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner-content a{
+    border-radius: 0px;
+}

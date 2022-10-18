@@ -1,0 +1,124 @@
+*{
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.header-top{
+    background-color: #f39c12;
+    color: white;
+}
+.header-top li a{
+    color:#2c3e50;
+}
+/*#################*/
+.welcom-content{
+    padding: 35px 0px 0px 0px;
+}
+.welcom-content h3,h4{
+    text-align: left;
+    justify-content: center;
+}
+.welcom-content h3{
+    font-size: 44px;
+    font-width: 800;
+    color: #ffc107;
+}
+.welcom-content h4{
+    font-size: 28px;
+    font-width: 800;
+    color: #2c3e50;
+}
+.welcom-content-btn {
+    padding: 11px 37px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 38px;
+}
+.welcom-content p{}
+
+.wellcome-man{
+    height: 400px;
+}
+.wellcome-man img{
+    width: 100%;
+}
+/*#######################################################*/
+.section-title{
+}
+.section-title h3 {
+    font-size: 38px;
+    font-weight: 800;
+    color: black;
+}
+.section-title p {
+    font-size: 16px;
+    margin: 5px 0px;
+
+}
+/*###################*/
+.choes-content{}
+.choes-content h5{
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.choes-content p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.choes-icon{
+    height: 150px;
+    width: 150px;
+    border-radius: 105px;
+    border: 5px solid #f1c40f;
+}
+.choes-icon i a{
+    font-size: 400px;
+}
+.customIcon{
+    margin-top: 25px;
+    font-size: 75px;
+}
+/*############################*/
+
+.services{}
+.services img{}
+.services h4{
+    font-weight: 800;
+}
+.services p {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.services a {
+    margin: 15px 0px;
+    padding: 9px 37px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f1c40f;
+    border-radius: 30px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.services { }
+/*#################################*/
+.portfolio{
+    height: 750px;
+    background-image: url("../img/file/portfolio_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative !important;
+    z-index: 999999;
+}
+.overlyColor{
+    height: 750px;
+    width: 100%;
+    background-image: linear-gradient(to right top, #ffffff, #fee9fc, #ffcfe1, #ffb9af, #ffaf73, #fbb459, #efbb3d, #dbc419, #e1cd25, #e7d730, #ece03a, #f2ea43);
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+}

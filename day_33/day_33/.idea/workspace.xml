@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79cbe4a2-99c3-49b3-a30f-6dbfa47110f9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2CmZc9qcXf5nxEC1s7G0qW0HLlH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/laravel_one-app" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79cbe4a2-99c3-49b3-a30f-6dbfa47110f9" name="Default Changelist" comment="" />
+      <created>1659409796940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659409796940</updated>
+      <workItem from="1659409798174" duration="12657000" />
+      <workItem from="1661656644108" duration="314000" />
+      <workItem from="1661656962022" duration="2177000" />
+      <workItem from="1661660586624" duration="819000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="12" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1661656674386">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="12" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1661656674386" />
+    <state x="410" y="65" key="FileChooserDialogImpl" timestamp="1661666466597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="410" y="65" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1661666466597" />
+  </component>
+</project>
